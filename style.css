@@ -101,13 +101,13 @@ header {
 }
 
 main {
-  max-width: 1200px;
-  margin: 2rem auto;
-  padding: 0 1rem;
+  /*max-width: 1200px;*/
+  /*margin: 2rem auto;*/
+  /*padding: 0 1rem;*/
 }
 
 .pools {
-  font-size: x-large;
+  font-size: 2.3rem;
   display: flex;
   gap: 3rem;
   margin-bottom: 3rem;
@@ -233,7 +233,7 @@ main {
   justify-content: center;
   gap: 1rem;
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-  font-size: xx-large !important;
+  font-size: 2.3rem;
 }
 
 .match-number {
@@ -243,7 +243,7 @@ main {
   background: #001942;
   padding: 2px 8px;
   border-radius: 10px;
-  font-size: 0.8rem;
+  font-size: 1.5rem;
   color: #00ff9d;
 }
 
@@ -269,7 +269,7 @@ main {
   background: #001942;
   padding: 2px 8px;
   border-radius: 10px;
-  font-size: 0.8rem;
+  font-size: 1.5rem;
   color: #00ff9d;
 }
 
@@ -281,7 +281,8 @@ main {
   justify-content: center;
   align-items: center;
   .qualifiers {
-
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -308,7 +309,7 @@ main {
 }
 
 .bracket-match-title {
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   color: #00ff9d;
   text-transform: uppercase;
   margin-bottom: 1rem;
@@ -321,7 +322,7 @@ main {
 .bracket-match-teams {
   text-align: center;
   color: white;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   line-height: 1.6;
 }
 
