@@ -88,23 +88,41 @@ main {
 
 .pools {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
   margin-bottom: 3rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, rgba(0,0,60,0.9), rgba(0,0,100,0.8));
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.pools::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/></svg>') repeat;
+  opacity: 0.1;
 }
 
 .pool {
   flex: 1;
-  background: white;
   padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  background: transparent;
 }
 
 .pool h2 {
-  color: #2c3e50;
-  margin-bottom: 1rem;
-  border-bottom: 2px solid #3498db;
-  padding-bottom: 0.5rem;
+  color: #00ff9d;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0,255,157,0.3);
+  letter-spacing: 2px;
 }
 
 .pool ul {
@@ -112,17 +130,37 @@ main {
 }
 
 .team-list li {
-  padding: 1rem;
-  border-bottom: 1px solid #eee;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
   display: flex;
   align-items: center;
   gap: 1rem;
+  background: rgba(255,255,255,0.1);
+  border-radius: 8px;
   transition: all 0.3s ease;
+  border: 1px solid rgba(255,255,255,0.1);
 }
 
 .team-list li:hover {
-  background: rgba(52, 152, 219, 0.1);
-  transform: translateX(10px);
+  transform: translateY(-3px);
+  background: rgba(255,255,255,0.2);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  border-color: #00ff9d;
+}
+
+.team-list img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #00ff9d;
+  padding: 2px;
+  background: rgba(0,0,0,0.3);
+}
+
+.team-list li span {
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
 .team-list img {
