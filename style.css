@@ -270,25 +270,86 @@ main {
 }
 
 .playoffs {
-  background: white;
+  background: #000c24;
   padding: 2rem;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  color: white;
 }
 
 .playoffs h2 {
-  color: #2c3e50;
+  color: #00ff9d;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.bracket-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin: 3rem 0;
+  padding: 2rem;
+}
+
+.bracket-round {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.bracket-match {
+  background: linear-gradient(135deg, #8b0000, #630000);
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 250px;
+  position: relative;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.bracket-match-title {
+  font-size: 0.9rem;
+  color: #00ff9d;
+  text-transform: uppercase;
   margin-bottom: 1rem;
+  text-align: center;
+  background: #001942;
+  padding: 0.5rem;
+  border-radius: 5px;
 }
 
-.playoff-info ul {
-  list-style: none;
-  margin-top: 1rem;
+.bracket-match-teams {
+  text-align: center;
+  color: white;
+  font-size: 0.9rem;
+  line-height: 1.6;
 }
 
-.playoff-info li {
-  padding: 0.5rem 0;
-  border-bottom: 1px solid #eee;
+.bracket-line {
+  position: absolute;
+  background: #00ff9d;
+  height: 2px;
+}
+
+.bracket-date {
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.8rem;
+  color: #8d8d8d;
+  white-space: nowrap;
+}
+
+.bracket-winner-note {
+  font-size: 0.8rem;
+  color: #00ff9d;
+  text-align: center;
+  margin-top: 0.5rem;
+  font-style: italic;
 }
 
 footer {

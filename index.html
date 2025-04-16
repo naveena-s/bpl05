@@ -53,14 +53,50 @@
 
     <section class="playoffs">
       <h2>Playoffs Format</h2>
-      <div class="playoff-info">
-        <p>Top teams from each pool will compete in the following format:</p>
-        <ul>
-          <li>Qualifier 1: Pool A Winner vs Pool B Winner (Winner goes to Final)</li>
-          <li>Qualifier 2: Pool A Runner-up vs Pool B Runner-up</li>
-          <li>Eliminator: Qualifier 1 Loser vs Qualifier 2 Winner</li>
-          <li>Final: Qualifier 1 Winner vs Eliminator Winner</li>
-        </ul>
+      <div class="bracket-container">
+        <!-- First Round -->
+        <div class="bracket-round">
+          <div class="bracket-match">
+            <div class="bracket-match-title">Qualifier 1</div>
+            <div class="bracket-match-teams">
+              Pool A Winner<br>vs<br>Pool B Winner
+            </div>
+            <div class="bracket-winner-note">Winner to Final</div>
+            <div class="bracket-date">April 21, 2025</div>
+          </div>
+          <div class="bracket-match">
+            <div class="bracket-match-title">Qualifier 2</div>
+            <div class="bracket-match-teams">
+              Pool A Runner-up<br>vs<br>Pool B Runner-up
+            </div>
+            <div class="bracket-winner-note">Winner to Eliminator</div>
+            <div class="bracket-date">April 21, 2025</div>
+          </div>
+        </div>
+        
+        <!-- Second Round -->
+        <div class="bracket-round">
+          <div class="bracket-match">
+            <div class="bracket-match-title">Eliminator</div>
+            <div class="bracket-match-teams">
+              Qualifier 1 Loser<br>vs<br>Qualifier 2 Winner
+            </div>
+            <div class="bracket-winner-note">Winner to Final</div>
+            <div class="bracket-date">April 22, 2025</div>
+          </div>
+        </div>
+        
+        <!-- Final Round -->
+        <div class="bracket-round">
+          <div class="bracket-match">
+            <div class="bracket-match-title">Final</div>
+            <div class="bracket-match-teams">
+              Qualifier 1 Winner<br>vs<br>Eliminator Winner
+            </div>
+            <div class="bracket-winner-note">Tournament Champion</div>
+            <div class="bracket-date">April 23, 2025</div>
+          </div>
+        </div>
       </div>
     </section>
   </main>
