@@ -10,7 +10,7 @@ const matches = {
     { number: 7, teams: 'SC Cricketers Karehalli vs Sevalal Mudnalli', pool: 'A' },
     { number: 8, teams: 'Army Jaganna Boys vs Sri Ram Cricketers', pool: 'B' },
     { number: 9, teams: 'Nagpuri Warriors Aggunda vs SC Cricketers Karehalli', pool: 'A' },
-    { number: 10, teams: 'SSMC Royal Banjara Javgal vs Friends 11', pool: 'B' },
+    { number: 10, teams: 'SSMC Royal Banjara Javgal vs Army Jaganna Boys', pool: 'B' },
     { number: 11, teams: 'Sevalal Mudnalli vs Bendekere', pool: 'A' }
   ],
   day2: [
