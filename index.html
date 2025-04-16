@@ -1,16 +1,72 @@
+
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>Cricket Tournament 2025</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
-
 <body>
-  Hello world
+  <header>
+    <h1>Cricket Tournament 2025</h1>
+    <p class="date">April 19 - April 21, 2025</p>
+  </header>
+
+  <main>
+    <section class="pools">
+      <div class="pool">
+        <h2>Pool A</h2>
+        <ul>
+          <li>SC Cricketers Karehalli</li>
+          <li>Kolapri Strikers Purlehalli</li>
+          <li>Sevalal Mudnalli</li>
+          <li>Bendekere</li>
+          <li>Nagpuri Warriors Aggunda</li>
+        </ul>
+      </div>
+      <div class="pool">
+        <h2>Pool B</h2>
+        <ul>
+          <li>Banjara Sixers</li>
+          <li>SSMC Royal Banjara Javgal</li>
+          <li>Friends 11</li>
+          <li>Sri Ram Cricketers</li>
+          <li>Army Jaganna Boys</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="schedule">
+      <h2>Match Schedule</h2>
+      <div class="day">
+        <h3>Saturday, April 19</h3>
+        <div class="matches" id="day1"></div>
+      </div>
+      <div class="day">
+        <h3>Sunday, April 20</h3>
+        <div class="matches" id="day2"></div>
+      </div>
+    </section>
+
+    <section class="playoffs">
+      <h2>Playoffs Format</h2>
+      <div class="playoff-info">
+        <p>Top teams from each pool will compete in the following format:</p>
+        <ul>
+          <li>Qualifier 1: Pool A Winner vs Pool B Winner (Winner goes to Final)</li>
+          <li>Qualifier 2: Pool A Runner-up vs Pool B Runner-up</li>
+          <li>Eliminator: Qualifier 1 Loser vs Qualifier 2 Winner</li>
+          <li>Final: Qualifier 1 Winner vs Eliminator Winner</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Cricket Tournament. All rights reserved.</p>
+  </footer>
+
   <script src="script.js"></script>
 </body>
-
 </html>
