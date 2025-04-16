@@ -110,10 +110,11 @@ main {
   gap: 3rem;
   margin-bottom: 3rem;
   padding: 2rem;
-  background: linear-gradient(135deg, rgba(0,0,60,0.9), rgba(0,0,100,0.8));
+  background: linear-gradient(135deg, #8b0000, #630000);
   border-radius: 15px;
   position: relative;
   overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
 .pools::before {
