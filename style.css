@@ -107,7 +107,7 @@ main {
 }
 
 .pools {
-  font-size: 2.3rem;
+  font-size: 3rem;
   display: flex;
   gap: 3rem;
   margin-bottom: 3rem;
@@ -138,7 +138,7 @@ main {
 
 .pool h2 {
   color: #00ff9d;
-  font-size: 2rem;
+  font-size: 4rem;
   margin-bottom: 2rem;
   text-align: center;
   text-transform: uppercase;
@@ -203,7 +203,7 @@ main {
 .schedule h2 {
   color: white;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 4rem;
   margin-bottom: 2.5rem;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -217,7 +217,7 @@ main {
   color: #8d8d8d;
   margin-bottom: 1.5rem;
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 2rem;
   letter-spacing: 1px;
 }
 
@@ -233,7 +233,7 @@ main {
   justify-content: center;
   gap: 1rem;
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-  font-size: 2.3rem;
+  font-size: 3rem;
 }
 
 .match-number {
@@ -348,6 +348,7 @@ footer {
   gap: 2rem;
   max-width: 800px;
   margin: 0 auto;
+  font-size: 2rem;
 }
 
 .contact-info, .location-info {
@@ -375,22 +376,16 @@ footer {
   display: inline-block;
   margin-top: 0.5rem;
   padding: 0.5rem 1rem;
-  background: #00ff9d;
-  color: #000;
+  color: #fff;
   text-decoration: none;
   border-radius: 4px;
   transition: all 0.3s ease;
 }
 
-.map-link:hover {
-  background: #00cc7d;
-  transform: translateY(-2px);
-}
-
-.copyright {
-  margin-top: 1rem;
-  color: #8d8d8d;
-}
+/*.map-link:hover {*/
+/*  background: #00cc7d;*/
+/*  transform: translateY(-2px);*/
+/*}*/
 
 @media (min-width: 768px) {
   .footer-content {
