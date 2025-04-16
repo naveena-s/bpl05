@@ -10,13 +10,13 @@
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
-  background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+  background: linear-gradient(135deg, #0a192f, #253555);
   min-height: 100vh;
   color: #333;
 }
 
 header {
-  background: linear-gradient(to right, #001942, #000c24);
+  background: linear-gradient(to right, #1e3a8a, #1e40af);
   color: white;
   text-align: center;
   padding: 2rem;
@@ -30,21 +30,23 @@ header {
 }
 
 .title-container {
-  background: #001942;
+  background: rgba(30, 58, 138, 0.9);
   padding: 1rem 4rem;
   position: relative;
   clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
   margin: 0 auto;
-  border: 2px solid rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .subtitle-container {
-  background: #8b0000;
+  background: #dc2626;
   padding: 0.5rem 2rem;
   position: relative;
   margin-top: -0.5rem;
   z-index: 1;
   clip-path: polygon(5% 0, 95% 0, 100% 50%, 95% 100%, 5% 100%, 0 50%);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .title-animate {
@@ -94,17 +96,19 @@ main {
 
 .pool {
   flex: 1;
-  background: white;
+  background: rgba(255, 255, 255, 0.95);
   padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
 }
 
 .pool h2 {
-  color: #2c3e50;
+  color: #1e3a8a;
   margin-bottom: 1rem;
-  border-bottom: 2px solid #3498db;
+  border-bottom: 2px solid #dc2626;
   padding-bottom: 0.5rem;
+  font-weight: 600;
 }
 
 .pool ul {
