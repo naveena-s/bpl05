@@ -283,15 +283,6 @@ main {
   .qualifiers {
     justify-content: center;
     display: flex;
-    font-size: x-large !important;
-  }
-  .eliminator {
-    justify-content: center;
-    display: flex;
-  }
-  .final {
-    justify-content: center;
-    display: flex;
   }
 }
 
@@ -303,7 +294,6 @@ main {
 }
 
 .bracket-round {
-  margin: 2rem;
   position: relative;
   z-index: 1;
   align-content: center !important;
