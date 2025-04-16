@@ -32,9 +32,13 @@ function displayMatches() {
     matches[day].forEach(match => {
       const matchDiv = document.createElement('div');
       matchDiv.className = 'match';
+      const [team1, team2] = match.teams.split(' vs ');
       matchDiv.innerHTML = `
-        <strong>Match ${match.number}</strong> - Pool ${match.pool}<br>
-        ${match.teams}
+        <div class="match-number">Match ${match.number}</div>
+        <div class="team">${team1}</div>
+        <div class="vs">VS</div>
+        <div class="team">${team2}</div>
+        <div class="pool-indicator">Pool ${match.pool}</div>
       `;
       container.appendChild(matchDiv);
     });
