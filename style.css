@@ -110,7 +110,6 @@ main {
   gap: 3rem;
   margin-bottom: 3rem;
   padding: 2rem;
-  background: linear-gradient(135deg, #8b0000, #630000);
   border-radius: 15px;
   position: relative;
   overflow: hidden;
@@ -191,11 +190,12 @@ main {
 }
 
 .schedule {
-  background: #000c24;
+  /*background: #000c24;*/
   padding: 2rem;
   border-radius: 8px;
   margin-bottom: 3rem;
   color: white;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
 .schedule h2 {
@@ -220,7 +220,8 @@ main {
 }
 
 .match {
-  background: linear-gradient(135deg, #8b0000, #630000);
+  /*background: linear-gradient(135deg, #8b0000, #630000);*/
+  background: rgba(255,255,255,0.1);
   padding: 1rem;
   margin-bottom: 1.5rem;
   border-radius: 15px;
@@ -270,7 +271,6 @@ main {
 }
 
 .playoffs {
-  background: #000c24;
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
@@ -302,7 +302,7 @@ main {
 }
 
 .bracket-match {
-  background: linear-gradient(135deg, #8b0000, #630000);
+  background: rgba(255,255,255,0.1);
   padding: 1.5rem;
   border-radius: 10px;
   width: 250px;
@@ -423,3 +423,4 @@ footer {
     flex-direction: column;
   }
 }
+
