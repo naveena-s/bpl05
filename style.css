@@ -16,42 +16,53 @@ body {
 }
 
 header {
-  background: rgba(0, 0, 0, 0.8);
+  background: linear-gradient(to right, #001942, #000c24);
   color: white;
   text-align: center;
-  padding: 3rem;
+  padding: 2rem;
   position: relative;
   overflow: hidden;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
-  opacity: 0.1;
-  z-index: 0;
+.title-container {
+  background: #001942;
+  padding: 1rem 4rem;
+  position: relative;
+  clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
+  margin: 0 auto;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.subtitle-container {
+  background: #8b0000;
+  padding: 0.5rem 2rem;
+  position: relative;
+  margin-top: -0.5rem;
+  z-index: 1;
+  clip-path: polygon(5% 0, 95% 0, 100% 50%, 95% 100%, 5% 100%, 0 50%);
 }
 
 .title-animate {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: 800;
-  margin-bottom: 0.5rem;
-  animation: slideDown 1s ease-out;
-  position: relative;
-  z-index: 1;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
 .subtitle-animate {
-  font-size: 1.8rem;
-  color: #4ecdc4;
-  margin-bottom: 1rem;
-  animation: slideUp 1s ease-out;
-  position: relative;
-  z-index: 1;
+  font-size: 1.2rem;
+  color: white;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 @keyframes slideDown {
