@@ -95,6 +95,7 @@ header {
 }
 
 .date {
+  font-size: xx-large;
   color: #ecf0f1;
   margin-top: 0.5rem;
 }
@@ -106,6 +107,7 @@ main {
 }
 
 .pools {
+  font-size: x-large;
   display: flex;
   gap: 3rem;
   margin-bottom: 3rem;
@@ -231,6 +233,7 @@ main {
   justify-content: center;
   gap: 1rem;
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  font-size: xx-large !important;
 }
 
 .match-number {
@@ -275,6 +278,21 @@ main {
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
   color: white;
+
+  align-items: center;
+  .qualifiers {
+    justify-content: center;
+    display: flex;
+    font-size: x-large !important;
+  }
+  .eliminator {
+    justify-content: center;
+    display: flex;
+  }
+  .final {
+    justify-content: center;
+    display: flex;
+  }
 }
 
 .playoffs h2 {
@@ -284,21 +302,11 @@ main {
   text-transform: uppercase;
 }
 
-.bracket-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-  margin: 3rem 0;
-  padding: 2rem;
-}
-
 .bracket-round {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
+  margin: 2rem;
   position: relative;
   z-index: 1;
+  align-content: center !important;
 }
 
 .bracket-match {
@@ -326,22 +334,6 @@ main {
   color: white;
   font-size: 0.9rem;
   line-height: 1.6;
-}
-
-.bracket-line {
-  position: absolute;
-  background: #00ff9d;
-  height: 2px;
-}
-
-.bracket-date {
-  position: absolute;
-  bottom: -25px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 0.8rem;
-  color: #8d8d8d;
-  white-space: nowrap;
 }
 
 .bracket-winner-note {
